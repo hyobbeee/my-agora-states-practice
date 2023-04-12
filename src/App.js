@@ -22,7 +22,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div className="countbox">
           <StyledBtn onClick={handleIncrement}>+</StyledBtn>
-          <span>{count}</span>
+          <span>{count} 뭘바꿔야 커밋됨?</span>
           <StyledBtn onClick={handleDecrement}>-</StyledBtn>
         </div>
       </header>
